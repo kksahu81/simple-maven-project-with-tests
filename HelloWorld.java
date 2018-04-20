@@ -11,4 +11,6 @@ public class HelloWorld {
 		//5 Keep Hello.java on the folder /Jenkins/workspace/
 		//6. Build the project/job by clicking "Build Now" link and see the Console Output
 
-		//http://paxcel.net/blog/automation-of-warear-deployment-using-jenkins/
+
+		
+		//modifieed http://paxcel.net/blog/automation-of-warear-deployment-using-jenkins/
