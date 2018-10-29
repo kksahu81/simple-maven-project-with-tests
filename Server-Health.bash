@@ -1,7 +1,6 @@
     #!/bin/bash
     date;
-    echo "uptime:"
-    uptime
+    echo "uptime:" vdvvvvvv
     echo "Currently connected:"
     w
     echo "--------------------"
