@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sample</groupId>
   <artifactId>SampleWebApp123</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>SampleWebApp123 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -11,7 +12,6 @@
   </properties>
   <scm>
     <developerConnection>scm:git:https://github.com/kksahu81/simple-maven-project-with-tests.git</developerConnection>
-    <tag>SampleWebApp123-1.0</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -49,12 +49,11 @@
 			</resource>
 		</resources>
   </build>
-  
   <repositories>
 		<repository>
 			<id>localdeploy</id>
 			<name>Corporate Releases</name>
-			<url>file://C:\dev\repositories\releases</url>
+			<url>file://dev/repositories/releases</url>
 		</repository>
 	
 	</repositories>
