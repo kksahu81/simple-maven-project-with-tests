@@ -54,7 +54,7 @@
 		<repository>
 			<id>localdeploy</id>
 			<name>Corporate Releases</name>
-			<url>file://C:\dev\repositories\releases</url>
+			<url>file:////dev/repositories/releases</url>
 		</repository>
 	
 	</repositories>
