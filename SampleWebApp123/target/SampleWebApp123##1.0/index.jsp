@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Hello World! and Today is 8th Nov</h2>
 </body>
 </html>
 <%@ page import = "java.util.ResourceBundle" %> 
