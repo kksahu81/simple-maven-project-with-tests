@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sample</groupId>
   <artifactId>SampleWebApp456</artifactId>
@@ -9,6 +8,7 @@
   <url>http://maven.apache.org</url>
   <scm>
     <developerConnection>scm:git:https://github.com/kksahu81/simple-maven-project-with-tests.git</developerConnection>
+    <tag>SampleWebApp456-1.0</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -17,6 +17,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+	<dependency>
+    <groupId>org.apache.maven.scm</groupId>
+    <artifactId>maven-scm-provider-gitexe</artifactId>
+    <version>1.9.2</version>
+</dependency>
   </dependencies>
   <build>
     <finalName>${project.artifactId}##${project.version}</finalName>
